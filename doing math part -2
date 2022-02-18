@@ -1,0 +1,17 @@
+#1. constructing matrix A and B containing 2 rows and 2 columns 
+A=matrix(c(2,0,1,3), ncol=2)
+A
+B=matrix(c(5,2,4,-1), ncol=2)
+B
+#performing add and sub action of matrix
+A+B
+A-B
+#2. construct a diagnoal matrix using diag() function
+diag(c(4,1,2,3), nrow = 4, ncol=4) 
+# 3.create a matrix containing 3 on the diagnoal  with 5 rows and 5 columns diag(n,nrow,ncol)
+matrix<-diag(3,5,5)
+matrix
+# here i used fix() function to edit the matrix using XQuartz
+matrix1<-fix(matrix)
+matrix1
+
